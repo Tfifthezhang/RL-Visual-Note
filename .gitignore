@@ -1,0 +1,113 @@
+### 🧱 Python 编译与缓存
+# Python 缓存目录
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Coverage 报告
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 类型检查缓存
+.mypy_cache/
+
+# 其他 Python 缓存
+*.so
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+### 📦 依赖与虚拟环境
+# 虚拟环境目录
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+.python-version
+
+# 依赖管理生成的文件
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+.Python
+lib/
+lib64/
+*.manifest
+*.spec
+
+# pip 日志
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+### 💻 开发工具 (IDE/Editor)
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# Vim
+*.swp
+
+
+### 📂 操作系统与通用文件
+# macOS
+.DS_Store
+
+# Linux/Unix
+*~
+.cache
+.local
+
+# Jupyter
+.ipynb_checkpoints
+
+# 其他临时文件
+media/*
+*.mp4
+*.pdf
+
+
+### 📝 项目特定配置 (请根据实际情况调整)
+# 日志文件
+*.log
+
+# 数据库与本地设置 (示例)
+# db.sqlite3
+# local_settings.py
+
+# 本地数据/检查点 (建议保留，除非你确定不需要版本控制)
+# data/
+# ckpt/
+# test_data/
+# benchmark/
+# pretrain/
+
+# 特定脚本例外 (保留 .sh 脚本)
+!benchmark/*.sh
+!pretrain/*.sh
